@@ -34,13 +34,8 @@ p {
     /* estas dos lineas sirven para alinear en el centro de toda la caja */
     text-align: center;
     align-content: center;
-    /* cambiar el ancho del elemento */
     width: 800px;
     margin: 0 auto;
-    /* cambiar el alto */
     height: 500px;
-    /* sombra */
-    /* difuminado - blur */
-    /* grosor - gutter */
     box-shadow: -40px -30px 40px 30px gray;
 }
