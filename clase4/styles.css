@@ -1,0 +1,46 @@
+#padre div {
+    width: 200px;
+    height: 100%;
+    background-color: teal;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+    box-shadow: 0 30px 100px -40px teal;
+}
+
+#padre {
+    display: grid;
+    height: 500px;
+    background-color: red;
+    grid-template-areas: 'header header header'
+        'aside main main'
+        'aside main main'
+        'aside main main'
+        'aside main main'
+        'aside main main'
+        'aside main main'
+        'aside main main'
+        'aside main main'
+        'footer footer footer';
+    gap: 10px;
+}
+
+#hijo {
+    grid-area: header;
+}
+
+#hijo2 {
+    grid-area: main;
+    height: 100%;
+}
+
+#hijo3 {
+    grid-area: aside;
+    height: 100%;
+}
+
+#hijo4 {
+    grid-area: footer;
+}
