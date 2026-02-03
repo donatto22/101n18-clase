@@ -17,3 +17,32 @@
         height: 200px;
     }
 }
+
+.caja div:hover {
+    background-color: purple;
+}
+
+/* experiencia de usuario */
+button {
+    background-color: red;
+    border: 0;
+    border-radius: 10px;
+    padding: .4em 1em;
+    transition: box-shadow 2s, background-color 2s, color 2s;
+}
+
+/* al pasar el mouse encima */
+button:hover {
+    background-color: rgb(142, 5, 32);
+    color: rgb(239, 91, 121);
+    box-shadow: 0 10px 20px rgba(220, 20, 60, 0.457);
+}
+
+/* cuando estas manteniendo el click */
+button:active {
+    background-color: rgb(57, 1, 12);
+}
+
+button:focus {
+    background-color: green;
+}
